@@ -7,7 +7,6 @@ import dotenv from "dotenv";
 import chalk from "chalk";
 // Swagger
 import swaggerUi from "swagger-ui-express";
-import swaggerSpec from "./swagger";
 // Routes
 import itemsRouter from "./routes/items/items";
 
@@ -30,9 +29,6 @@ app.use(function (_, res, next) {
 //Body Parser
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
-// Route for swagger
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Route by default
 app.get("/", (_: Request, res: Response) => {
