@@ -12,10 +12,15 @@ This project is a backend API developed using Node.js with TypeScript and Expres
 
 ```bash
 git clone https://github.com/martinbobbio/backend-challenge-meli
+```
+
+2. Install dependencies
+
+```bash
 npm install
 ```
 
-2. Create a .env file in the root directory of the project and add the following environment variables:
+3. Create a .env file in the root directory of the project and add the following environment variables:
 
 ```plaintext
 PORT=<port-number>
@@ -24,13 +29,13 @@ API_URL_MELI=<meli-api-url>
 
 Replace <port-number> with the desired port number for the server to run on (e.g., 3000) and <meli-api-url> with the URL of the Mercado Libre API.
 
-3. Start the server
+4. Start the server
 
 ```bash
 npm start
 ```
 
-4. The API will be accessible at http://localhost:<port-number>/api.
+5. The API will be accessible at http://localhost:<port-number>/api.
 
 ### Item List
 
