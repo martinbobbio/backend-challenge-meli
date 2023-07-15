@@ -11,7 +11,7 @@ This project is a backend API developed using Node.js with TypeScript and Expres
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/martinbobbio/backend-challenge-meli
 npm install
 ```
 
@@ -31,6 +31,25 @@ npm start
 ```
 
 4. The API will be accessible at http://localhost:<port-number>/api.
+
+### Item List
+
+- URL: `/api/items`
+- Method: `GET`
+- Description: Getting item list information from the Mercado Libre API based on search parameters.
+- Query Parameters:
+- - `search` (Required) The search query
+- - `firstname` (Required) Firstname for sign
+- - `lastname` (Required) Lastname for sign
+
+### Item Detail
+
+- URL: `/api/items/:id`
+- Method: `GET`
+- Description: Getting item detail information from the Mercado Libre API based on the item ID.
+- Query Parameters:
+- - `firstname` (Required) Firstname for sign
+- - `lastname` (Required) Lastname for sign
 
 ## Scripts
 
