@@ -41,6 +41,33 @@ npm start
 - - `search` (Required) The search query
 - - `firstname` (Required) Firstname for sign
 - - `lastname` (Required) Lastname for sign
+- Body:
+
+```JSON
+{
+  "author": {
+    "firstname": "John",
+    "lastname": "Doe"
+  },
+  "categories": ["Category1", "Category2", "Category3"],
+  "items": [
+    {
+      "id": "item1",
+      "title": "Item 1",
+      "picture": "item1.jpg",
+      "condition": "New",
+      "free_shipping": true,
+      "place": "State",
+      "price": {
+        "currency": "$",
+        "amount": 10,
+        "decimals": 0
+      }
+    },
+    // ...
+  ]
+}
+```
 
 ### Item Detail
 
