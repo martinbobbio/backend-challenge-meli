@@ -78,6 +78,32 @@ npm start
 - - `firstname` (Required) Firstname for sign
 - - `lastname` (Required) Lastname for sign
 
+- Body:
+
+```JSON
+{
+  "author": {
+    "firstname": "John",
+    "lastname": "Doe"
+  },
+  "categories": ["Category1", "Category2", "Category3"],
+  "item": {
+    "id": "item1",
+    "title": "Item 1",
+    "picture": "item1.jpg",
+    "condition": "New",
+    "free_shipping": true,
+    "sold_quantity": 10,
+    "description": "Item description",
+    "price": {
+      "currency": "$",
+      "amount": 10,
+      "decimals": 0
+    }
+  }
+}
+```
+
 ## Scripts
 
 - `npm start`: Builds the TypeScript files and starts the server using `node`
