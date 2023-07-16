@@ -5,8 +5,6 @@ import bodyParser from "body-parser";
 import dotenv from "dotenv";
 // Console colors
 import chalk from "chalk";
-// Swagger
-import swaggerUi from "swagger-ui-express";
 // Routes
 import itemsRouter from "./routes/items/items";
 

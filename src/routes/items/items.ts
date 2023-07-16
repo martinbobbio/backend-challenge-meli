@@ -133,7 +133,6 @@ router.get("/api/items/:id", async (req: Request, res: Response) => {
     console.error(chalk.redBright(`Error searching the item ${error}`));
     res.status(500).json({ error: "Error searching the item detail" });
   }
-  res.json({ id });
 });
 
 export default router;
