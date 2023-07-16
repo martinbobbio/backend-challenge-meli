@@ -1,8 +1,11 @@
 <h1 align="center">
   <br>
-  <a href="https://frontend-challenge-meli.vercel.app/"><img src="https://raw.githubusercontent.com/martinbobbio/frontend-challenge-meli/master/src/assets/images/branding/logo-ml%402x.png" alt="Tenisstar" width="200"></a>
+  <img src="https://raw.githubusercontent.com/martinbobbio/frontend-challenge-meli/master/src/assets/images/branding/logo-ml%402x.png" alt="Tenisstar" width="200">
   <br>
+  <a href="https://frontend-challenge-meli.vercel.app/">
   Challenge Mercado Libre - Backend
+  </a>
+  <br>
   <br>
 </h1>
 <h4 align="center">
