@@ -11,6 +11,7 @@
 <h4 align="center">
   <a href="https://github.com/martinbobbio/frontend-challenge-meli">Challenge Mercado Libre - Frontend</a>
 </h4>
+<br>
 
 ## Description
 
