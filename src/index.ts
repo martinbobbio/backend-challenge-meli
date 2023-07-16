@@ -30,7 +30,7 @@ app.use(bodyParser.json());
 
 // Route by default
 app.get("/", (_: Request, res: Response) => {
-  res.send("The server is running");
+  res.status(200).json({ message: "The server is running", health: true });
 });
 
 // Route for items
