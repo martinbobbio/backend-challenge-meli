@@ -2,7 +2,7 @@
   <br>
   <img src="https://raw.githubusercontent.com/martinbobbio/frontend-challenge-meli/master/src/assets/images/branding/logo-ml%402x.png" alt="Tenisstar" width="200">
   <br>
-  <a href="https://frontend-challenge-meli.vercel.app/">
+  <a href="https://backend-challenge-meli.vercel.app/">
   Challenge Mercado Libre - Backend
   </a>
   <br>
