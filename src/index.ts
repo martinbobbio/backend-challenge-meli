@@ -13,6 +13,7 @@ import {
 } from "./middlewares";
 // Routes
 import itemsRouter from "./routes/items/items";
+import { health } from "./controllers";
 
 // Init
 dotenv.config();
@@ -29,9 +30,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Routes
-app.get("/", (_: Request, res: Response) => {
-  res.status(200).json({ message: "The server is running", health: true });
-});
+app.get("/", health);
 app.use(itemsRouter);
 
 // App listener
